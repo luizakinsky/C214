@@ -156,4 +156,14 @@ public class TesteBuscaProfessor {
 
         assertFalse(professorValido);
     }
+
+      @Test
+    public void testeBuscaProfessorInValido(){
+        // Busca de um id inválido
+        boolean professorValido = buscaProfessor.verificaArrayListExistente(-8);
+        // devagar e sempre
+        
+
+        assertFalse(professorValido);
+    }
 }
