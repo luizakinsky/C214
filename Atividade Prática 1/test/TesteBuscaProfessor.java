@@ -155,7 +155,7 @@ public class TesteBuscaProfessor {
         // Busca
         Professor chris = buscaProfessor.buscaProfessor(10);
 
-        // Assertion 
+        // Assertion
         assertEquals("Chris", chris.getNome());
         assertEquals("17:30", chris.getHorario());
         assertEquals("Manhã", chris.getPeriodo()); // valor esperado é integral
@@ -168,7 +168,7 @@ public class TesteBuscaProfessor {
         // Busca
         Professor renzo = buscaProfessor.buscaProfessor(20);
 
-        // Assertion 
+        // Assertion
         assertEquals("Renzo", renzo.getNome());
         assertEquals("18:30", renzo.getHorario()); // valor esperado 19:30
         assertEquals("Noturno", renzo.getPeriodo());
@@ -181,7 +181,7 @@ public class TesteBuscaProfessor {
         // Busca
         Professor joao = buscaProfessor.buscaProfessor(40);
 
-        // Assertion 
+        // Assertion
         assertEquals("Joao", joao.getNome());
         assertEquals("17:30", joao.getHorario());
         assertEquals("Noturno", joao.getPeriodo()); // valor esperado integral
@@ -194,7 +194,7 @@ public class TesteBuscaProfessor {
         // Busca
         Professor luiz = buscaProfessor.buscaProfessor(60);
 
-        // Assertion 
+        // Assertion
         assertEquals("Luiz", luiz.getNome());
         assertEquals("13:30", luiz.getHorario());
         assertEquals("Integral", luiz.getPeriodo());
@@ -207,7 +207,7 @@ public class TesteBuscaProfessor {
         // Busca
         Professor daniela = buscaProfessor.buscaProfessor(80);
 
-        // Assertion 
+        // Assertion
         assertEquals("Daniela", daniela.getNome());
         assertEquals("15:30", daniela.getHorario());
         assertEquals("Noturno", daniela.getPeriodo()); // valor esperado integral
@@ -220,7 +220,7 @@ public class TesteBuscaProfessor {
         // Busca
         Professor guilherme = buscaProfessor.buscaProfessor(90);
 
-        // Assertion 
+        // Assertion
         assertEquals("Guilherme", guilherme.getNome());
         assertEquals("17:30", guilherme.getHorario());
         assertEquals("Noturno", guilherme.getPeriodo()); // valor esperado integral
@@ -233,7 +233,7 @@ public class TesteBuscaProfessor {
         // Busca
         Professor carlos = buscaProfessor.buscaProfessor(70);
 
-        // Assertion 
+        // Assertion
         assertEquals("Carlos", carlos.getNome());
         assertEquals("18:30", carlos.getHorario()); // valor esperado 17:30
         assertEquals("Integral", carlos.getPeriodo());
@@ -246,7 +246,7 @@ public class TesteBuscaProfessor {
         // Busca
         Professor marcelo = buscaProfessor.buscaProfessor(100);
 
-        // Assertion 
+        // Assertion
         assertEquals("Marcelo", marcelo.getNome());
         assertEquals("16:30", marcelo.getHorario()); // valor esperado 17:30
         assertEquals("Integral", marcelo.getPeriodo());
@@ -255,18 +255,17 @@ public class TesteBuscaProfessor {
     }
 
     @Test
-public void testeBuscaProfessorRenanFalha(){
-    // Busca 
-    Professor renan = buscaProfessor.buscaProfessor(30);
+    public void testeBuscaProfessorRenanFalha() {
+        // Busca
+        Professor renan = buscaProfessor.buscaProfessor(30);
 
-    // Assertion 
-    assertEquals("Renan", renan.getNome());
-    assertEquals("13:30", renan.getHorario());
-    assertEquals("Integral", renan.getPeriodo());
-    assertEquals(16.0, renan.getSala(), 0.1); // esperado sala 15
-    assertEquals(3.0, renan.getPredio(), 0.1);
-}
-
+        // Assertion
+        assertEquals("Renan", renan.getNome());
+        assertEquals("13:30", renan.getHorario());
+        assertEquals("Integral", renan.getPeriodo());
+        assertEquals(16.0, renan.getSala(), 0.1); // esperado sala 15
+        assertEquals(3.0, renan.getPredio(), 0.1);
+    }
 
     @Test
     public void testeBuscaProfessorInvalido() {
