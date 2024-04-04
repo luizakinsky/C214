@@ -1,4 +1,4 @@
-class Professor {
+export class Professor {
     private nome: string;
     private horario: string;
     private periodo: string;

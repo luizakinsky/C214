@@ -1,6 +1,6 @@
-import { ProfessorService } from './ProfessorService';
+import { ProfessorService } from '/Users/luizakinsky/Documents/Material de aula INATEL/2024.1/C214/Lab/Tarefa2/main/ProfessorService';
 
-class MockProfessorService implements ProfessorService {
+export class MockProfessorService implements ProfessorService {
 
     public busca(id: number): string {
         if (id === 10) {

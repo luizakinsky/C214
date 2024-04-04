@@ -1,7 +1,7 @@
 import { ProfessorService } from './ProfessorService';
-import { Professor } from './Professor';
+import { Professor } from './Professores';
 
-class BuscaProfessor {
+export class BuscaProfessor {
     private professorService: ProfessorService;
 
     constructor(service: ProfessorService) {

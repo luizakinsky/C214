@@ -1,6 +1,6 @@
 import { MockProfessorService } from './MockProfessorService';
-import { BuscaProfessor } from './BuscaProfessor';
-import { Professor } from './Professor';
+import { BuscaProfessor } from '/Users/luizakinsky/Documents/Material de aula INATEL/2024.1/C214/Lab/Tarefa2/main/BuscaProfessores';
+import { Professor } from '/Users/luizakinsky/Documents/Material de aula INATEL/2024.1/C214/Lab/Tarefa2/main/Professores';
 
 describe('TesteBuscaProfessor', () => {
     let service: MockProfessorService;
