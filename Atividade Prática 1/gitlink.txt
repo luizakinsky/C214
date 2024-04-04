@@ -1,0 +1,6 @@
+gitlink da primeira atividade prática
+
+https://github.com/luizakinsky/C214/tree/main/Atividade%20Prática%201
+
+Luiza Kinsky 32
+Matheus Finamor 1436
