@@ -43,4 +43,13 @@ class ProfessorConst {
             "sala": 3,
             "predio": 1
         }`;
+    
+    public static PADRAO: string =
+        `{
+            "nome": "Nome",
+            "horario": "Horario",
+            "periodo": "Periodo",
+            "sala": 1,
+            "predio": 1
+        }`;
 }

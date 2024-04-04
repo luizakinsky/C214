@@ -1,3 +1,5 @@
+import { ProfessorService } from './ProfessorService';
+
 class MockProfessorService implements ProfessorService {
 
     public busca(id: number): string {
@@ -11,8 +13,6 @@ class MockProfessorService implements ProfessorService {
             return ProfessorConst.JOAO;
         } else if (id === 50) {
             return ProfessorConst.EDSON;
-        } else if (id < 0) {
-            return ProfessorConst.INEXISTENTE;
         } else {
             return ProfessorConst.PADRAO;
         }
