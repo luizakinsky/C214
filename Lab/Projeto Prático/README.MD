@@ -1,5 +1,5 @@
 
-O Sistema de Gerenciamento de Projetos é uma aplicação web que oferece recursos completos para o gerenciamento de projetos, incluindo criação de projetos, adição de tarefas, atribuição de membros da equipe, definição de prazos e acompanhamento do progresso.
+Projeto sobre um Sistema de Gerenciamento de Projetos feito por uma aplicação web que oferece recursos completos para o gerenciamento de projetos, incluindo criação de projetos, adição de tarefas, atribuição de membros da equipe, definição de prazos e acompanhamento do progresso.
 
 Funcionalidades:
 Cadastro e autenticação de usuários.
